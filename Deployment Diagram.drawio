@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="491iWknVqvaA6NKe6SHW">
+    <mxGraphModel dx="684" dy="671" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <UserObject label="" plantUmlData="{&#xa;  &quot;data&quot;: &quot;@startuml\nnode \&quot;PC Admin / Desktop\&quot; &lt;&lt;device&gt;&gt; {\n  node \&quot;JRE / JVM\&quot; &lt;&lt;executionEnvironment&gt;&gt; {\n    artifact \&quot;KatalogKyanApp.jar\&quot; &lt;&lt;artifact&gt;&gt;\n  }\n}\n\nnode \&quot;Server Localhost\&quot; &lt;&lt;device&gt;&gt; {\n  node \&quot;MySQL Database Server (XAMPP)\&quot; &lt;&lt;executionEnvironment&gt;&gt; {\n    artifact \&quot;db_kyan.sql\&quot; &lt;&lt;artifact&gt;&gt;\n  }\n}\n\n\&quot;PC Admin / Desktop\&quot; -- \&quot;Server Localhost\&quot; : &lt;&lt;JDBC&gt;&gt; \\n TCP/IP (3306)\n@enduml&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="kVCbyyf-yn5BLd1WlKAX-1">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=10;" vertex="1">
+            <mxGeometry as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«device»&#xa;PC Admin / Desktop" plantUmlId="c_0" plantUmlBaseStyle="shape=cube;size=10;flipH=1;fillColor=none;strokeColor=#181818;verticalAlign=top;align=center;spacingTop=7;spacingRight=10;fontSize=14;fontStyle=1;whiteSpace=wrap;" plantUmlBaseValue="«device»&#xa;PC Admin / Desktop" id="kVCbyyf-yn5BLd1WlKAX-2">
+          <mxCell parent="kVCbyyf-yn5BLd1WlKAX-1" style="shape=cube;size=10;flipH=1;fillColor=none;strokeColor=#181818;verticalAlign=top;align=center;spacingTop=7;spacingRight=10;fontSize=14;fontStyle=1;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="188" width="285.155" x="56.932500000000005" y="30" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«executionEnvironment»&#xa;JRE / JVM" plantUmlId="c_1" plantUmlBaseStyle="shape=cube;size=10;flipH=1;fillColor=none;strokeColor=#181818;verticalAlign=top;align=center;spacingTop=7;spacingRight=10;fontSize=14;fontStyle=1;whiteSpace=wrap;" plantUmlBaseValue="«executionEnvironment»&#xa;JRE / JVM" id="kVCbyyf-yn5BLd1WlKAX-3">
+          <mxCell parent="kVCbyyf-yn5BLd1WlKAX-2" style="shape=cube;size=10;flipH=1;fillColor=none;strokeColor=#181818;verticalAlign=top;align=center;spacingTop=7;spacingRight=10;fontSize=14;fontStyle=1;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="117" width="245.155" x="14.999999999999986" y="55" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«artifact»&#xa;KatalogKyanApp.jar" plantUmlId="n_2" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#F1F1F1;strokeColor=#181818;fontSize=14;whiteSpace=wrap;spacingRight=10;spacingTop=2;" plantUmlBaseValue="«artifact»&#xa;KatalogKyanApp.jar" id="kVCbyyf-yn5BLd1WlKAX-4">
+          <mxCell parent="kVCbyyf-yn5BLd1WlKAX-3" style="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#F1F1F1;strokeColor=#181818;fontSize=14;whiteSpace=wrap;spacingRight=10;spacingTop=2;" vertex="1">
+            <mxGeometry height="46" width="156" x="40" y="55" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="ci_3" plantUmlBaseStyle="shape=note;size=6;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;part=1;" plantUmlBaseValue="" id="kVCbyyf-yn5BLd1WlKAX-5">
+          <mxCell parent="kVCbyyf-yn5BLd1WlKAX-4" style="shape=note;size=6;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;part=1;" vertex="1">
+            <mxGeometry height="14" relative="1" width="12" x="1" as="geometry">
+              <mxPoint x="-17" y="5" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="«device»&#xa;Server Localhost" plantUmlId="c_4" plantUmlBaseStyle="shape=cube;size=10;flipH=1;fillColor=none;strokeColor=#181818;verticalAlign=top;align=center;spacingTop=7;spacingRight=10;fontSize=14;fontStyle=1;whiteSpace=wrap;" plantUmlBaseValue="«device»&#xa;Server Localhost" id="kVCbyyf-yn5BLd1WlKAX-6">
+          <mxCell parent="kVCbyyf-yn5BLd1WlKAX-1" style="shape=cube;size=10;flipH=1;fillColor=none;strokeColor=#181818;verticalAlign=top;align=center;spacingTop=7;spacingRight=10;fontSize=14;fontStyle=1;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="188" width="339.02" x="30" y="266" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«executionEnvironment»&#xa;MySQL Database Server (XAMPP)" plantUmlId="c_5" plantUmlBaseStyle="shape=cube;size=10;flipH=1;fillColor=none;strokeColor=#181818;verticalAlign=top;align=center;spacingTop=7;spacingRight=10;fontSize=14;fontStyle=1;whiteSpace=wrap;" plantUmlBaseValue="«executionEnvironment»&#xa;MySQL Database Server (XAMPP)" id="kVCbyyf-yn5BLd1WlKAX-7">
+          <mxCell parent="kVCbyyf-yn5BLd1WlKAX-6" style="shape=cube;size=10;flipH=1;fillColor=none;strokeColor=#181818;verticalAlign=top;align=center;spacingTop=7;spacingRight=10;fontSize=14;fontStyle=1;whiteSpace=wrap;" vertex="1">
+            <mxGeometry height="117" width="299.02" x="15" y="55" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="«artifact»&#xa;db_kyan.sql" plantUmlId="n_6" plantUmlBaseStyle="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#F1F1F1;strokeColor=#181818;fontSize=14;whiteSpace=wrap;spacingRight=10;spacingTop=2;" plantUmlBaseValue="«artifact»&#xa;db_kyan.sql" id="kVCbyyf-yn5BLd1WlKAX-8">
+          <mxCell parent="kVCbyyf-yn5BLd1WlKAX-7" style="rounded=1;absoluteArcSize=1;arcSize=5;fillColor=#F1F1F1;strokeColor=#181818;fontSize=14;whiteSpace=wrap;spacingRight=10;spacingTop=2;" vertex="1">
+            <mxGeometry height="46" width="109" x="90" y="55" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="" plantUmlId="ci_7" plantUmlBaseStyle="shape=note;size=6;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;part=1;" plantUmlBaseValue="" id="kVCbyyf-yn5BLd1WlKAX-9">
+          <mxCell parent="kVCbyyf-yn5BLd1WlKAX-8" style="shape=note;size=6;fillColor=#F1F1F1;strokeColor=#181818;strokeWidth=0.5;part=1;" vertex="1">
+            <mxGeometry height="14" relative="1" width="12" x="1" as="geometry">
+              <mxPoint x="-17" y="5" as="offset" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="«JDBC» &#xa; TCP/IP (3306)" plantUmlId="e_8" plantUmlBaseStyle="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;labelPosition=right;align=left;endArrow=none;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" plantUmlBaseValue="«JDBC» &#xa; TCP/IP (3306)" id="kVCbyyf-yn5BLd1WlKAX-10">
+          <mxCell edge="1" parent="kVCbyyf-yn5BLd1WlKAX-1" source="kVCbyyf-yn5BLd1WlKAX-2" style="strokeColor=#181818;fontColor=#000000;fontSize=13;html=1;labelBackgroundColor=#FFFFFF;labelPosition=right;align=left;endArrow=none;curved=1;rounded=0;endSize=6;sourcePerimeterSpacing=0;targetPerimeterSpacing=0;" target="kVCbyyf-yn5BLd1WlKAX-6">
+            <mxGeometry relative="1" as="geometry">
+              <mxPoint x="51" y="3" as="offset" />
+              <Array as="points">
+                <mxPoint x="199.51" y="237.65" />
+              </Array>
+              <mxPoint x="199.51" y="215.51" as="sourcePoint" />
+              <mxPoint x="199.51" y="274.53999999999996" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
